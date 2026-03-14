@@ -12,7 +12,7 @@ const ChannelPage = () => {
   const { id } = useParams();
   // Used for page navigation
   const navigate = useNavigate();
-  // Get logged-in user from Auth Context
+  // Get logged-in user from Auth Context.
   const { user, updateUser } = useAuth();
   // Store channel data
   const [channel, setChannel] = useState(null);
