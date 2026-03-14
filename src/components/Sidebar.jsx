@@ -20,7 +20,7 @@ import { SiYoutubeshorts } from "react-icons/si";
 
 
 // Sidebar menu configuration
-// Each object represents one menu item
+// Each object represents one menu item...
 const sidebarItems = [
   { icon: <AiFillHome />, label: "Home", path: "/" },
   { icon: <MdExplore />, label: "Explore" },
