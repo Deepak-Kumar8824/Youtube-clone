@@ -9,7 +9,7 @@ import { AiOutlineBell } from "react-icons/ai";
 
 // onToggleSidebar -> function passed from parent to open/close sidebar..
 const Header = ({ onToggleSidebar }) => {
-  // Get user data and logout function from Auth Context
+  // Get user data and logout function from Auth Context..
   const { user, logout } = useAuth();
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState("");
