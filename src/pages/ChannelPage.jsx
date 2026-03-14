@@ -8,7 +8,7 @@ import { useAuth } from "../context/authContext.jsx";
 import Swal from "sweetalert2";
 
 const ChannelPage = () => {
-  // Get channel id from URL ( /channel/:id )
+  // Get channel id from URL ( /channel/:id ).
   const { id } = useParams();
   // Used for page navigation
   const navigate = useNavigate();
