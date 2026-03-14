@@ -1,4 +1,4 @@
-// src/pages/Login.jsx – Login page with validation
+// src/pages/Login.jsx – Login page with validation.
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import API from "../api/api.js";
