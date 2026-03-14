@@ -1,7 +1,7 @@
 // src/api/api.js – Axios instance with auth interceptor
 import axios from 'axios';
-
-// All API requests will automatically use this base URL
+// API configuration updated
+// All API requests will automatically use this base URL 
 const API = axios.create({
     baseURL: "http://localhost:5050/api",
   });
