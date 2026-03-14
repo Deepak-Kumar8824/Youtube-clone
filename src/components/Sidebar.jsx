@@ -3,7 +3,7 @@
 // Import navigation utilities from React Router
 import { Link, useLocation } from "react-router-dom";
 
-// Import icons used in sidebar menu
+// Import icons used in sidebar menu.
 import { AiFillHome } from "react-icons/ai";
 import {
   MdExplore,
