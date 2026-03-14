@@ -15,7 +15,7 @@ const categories = [
 
 // FilterButtons component
 // Props:
-// activeCategory -> currently selected category
+// activeCategory -> currently selected category.
 // onCategoryChange -> function to update selected category
 const FilterButtons = ({ activeCategory, onCategoryChange }) => {
   return (
