@@ -15,7 +15,7 @@ const Home = () => {
 
   // Runs whenever category or search query changes.
   useEffect(() => {
-    // Function to fetch videos from backend
+    // Function to fetch videos from backend.
     const fetchVideos = async () => {
       try {
         // Start loading state
