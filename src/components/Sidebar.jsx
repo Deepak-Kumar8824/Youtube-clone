@@ -1,6 +1,6 @@
 // src/components/Sidebar.jsx
 
-// Import navigation utilities from React Router
+// Import navigation utilities from React Router..
 import { Link, useLocation } from "react-router-dom";
 
 // Import icons used in sidebar menu.
