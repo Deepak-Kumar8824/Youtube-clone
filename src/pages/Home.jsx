@@ -21,7 +21,7 @@ const Home = () => {
         // Start loading state
         setLoading(true);
 
-        // Object to store query parameters for API
+        // Object to store query parameters for API.
         const params = {};
 
         // If user searched something -> add search parameter
