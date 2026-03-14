@@ -27,7 +27,7 @@ const sidebarItems = [
   { icon: <SiYoutubeshorts />, label: "Shorts" },
   { icon: <MdSubscriptions />, label: "Subscriptions" },
 
-  // Divider line between sections
+  // Divider line between sections..
   { divider: true },
 
   { icon: <MdVideoLibrary />, label: "Library" },
