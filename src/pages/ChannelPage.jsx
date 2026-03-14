@@ -17,7 +17,7 @@ const ChannelPage = () => {
   // Store channel data
   const [channel, setChannel] = useState(null);
   const [loading, setLoading] = useState(true);
-  // Check if logged-in user is the owner of the channel
+  // Check if logged-in user is the owner of the channel.
   const [isOwner, setIsOwner] = useState(false);
 
   // Show create channel form
