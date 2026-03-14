@@ -1,6 +1,6 @@
 // src/components/FilterButtons.jsx
 
-// List of categories used to filter videos (similar to YouTube category filters)
+// List of categories used to filter videos (similar to YouTube category filters) 
 const categories = [
   "All",
   "Music",
