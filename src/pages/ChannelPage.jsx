@@ -26,7 +26,7 @@ const ChannelPage = () => {
   // Show edit channel form
   const [showEditForm, setShowEditForm] = useState(false);
 
-  // Form state for creating a new channel
+  // Form state for creating a new channel.
   const [channelForm, setChannelForm] = useState({
     channelName: "",
     description: "",
