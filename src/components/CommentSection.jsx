@@ -5,7 +5,7 @@ import API from "../api/api.js";
 import { useAuth } from "../context/authContext.jsx";
 import Swal from "sweetalert2";
 
-// Function to convert a date into a time.
+// Function to convert a date into a time..
 // Example: "2 min ago", "3 days ago"
 
 const timeAgo = (dateStr) => {
