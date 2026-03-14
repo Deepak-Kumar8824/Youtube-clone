@@ -13,7 +13,7 @@ const Header = ({ onToggleSidebar }) => {
   const { user, logout } = useAuth();
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState("");
-  // State to control user dropdown visibility
+  // State to control user dropdown visibility.
   const [showDropdown, setShowDropdown] = useState(false);
 
   // Handle search form submission
