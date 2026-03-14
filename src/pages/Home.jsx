@@ -13,7 +13,7 @@ const Home = () => {
 
   const searchQuery = searchParams.get("search") || "";
 
-  // Runs whenever category or search query changes
+  // Runs whenever category or search query changes.
   useEffect(() => {
     // Function to fetch videos from backend
     const fetchVideos = async () => {
