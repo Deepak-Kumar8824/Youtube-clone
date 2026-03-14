@@ -11,7 +11,7 @@ const formatViews = (views) => {
   return views.toString();
 };
 
-// Function to convert date into "time ago" format
+// Function to convert date into "time ago" format..
 // Example: Today, 2 days ago, 1 week ago
 const formatTimeAgo = (dateStr) => {
   const now = new Date();
