@@ -1,6 +1,6 @@
 // src/api/api.js – Axios instance with auth interceptor
 import axios from 'axios';
-// API configuration updated
+// API configuration updatedgit add .
 // All API requests will automatically use this base URL 
 const API = axios.create({
     baseURL: "http://localhost:5050/api",
@@ -8,7 +8,7 @@ const API = axios.create({
   
 // Attach JWT token to every request if available
 API.interceptors.request.use((config) => {
-    // getting from local storage userInfo
+    // getting from local storage userInfomation 
     const userInfo = localStorage.getItem('userInfo');
 
     // Check if userInfo exists
