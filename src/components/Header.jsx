@@ -7,7 +7,7 @@ import { MdVideoLibrary } from "react-icons/md";
 import { useAuth } from "../context/authContext.jsx";
 import { AiOutlineBell } from "react-icons/ai";
 
-// onToggleSidebar -> function passed from parent to open/close sidebar
+// onToggleSidebar -> function passed from parent to open/close sidebar..
 const Header = ({ onToggleSidebar }) => {
   // Get user data and logout function from Auth Context
   const { user, logout } = useAuth();
